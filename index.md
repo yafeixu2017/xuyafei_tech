@@ -20,7 +20,7 @@
 
 ### 1.1 两数相加 
 - finished at 211031_2212
-
+    <pre>
 <!--code Tag starts here -->
       <code>
 #include<stdio.h>
@@ -29,6 +29,7 @@ int main() {
 }
 <!--code Tag starts here -->
       </code>
+    </pre>
 
     
 ## 2 强化学习笔记
