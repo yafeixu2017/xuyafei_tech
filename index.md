@@ -3,9 +3,10 @@
 # 飞达技术博客
 
 ## 1 leetcode题解（C++代码）
-题目顺序主要参考 https://leetcode-cn.com/circle/article/48kq9d/
+- 题目顺序主要参考 https://leetcode-cn.com/circle/article/48kq9d/
 
-### 1.1 两数相加 v211031_2212
+### 1.1 两数相加 
+- finished at 211031_2212
 ``` c++
 
 class Solution {
