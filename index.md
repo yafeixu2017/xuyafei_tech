@@ -1,3 +1,8 @@
+<head>
+  <link href="css/shCore.css" rel="stylesheet" type="text/css" />
+  <link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+</head>
+
 - [飞达技术博客](#------)
   * [1 leetcode题解（C++代码）](#1-leetcode---c-----)
     + [1.1 两数相加](#11-----)
@@ -15,8 +20,8 @@
 
 ### 1.1 两数相加 
 - finished at 211031_2212
-
-<pre><code class="language-c">
+<body>
+  <pre class='brush: cpp'>
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -33,7 +38,16 @@ public:
         return temp;
     }
 };
-</code></pre>
+  </pre>
+
+  <script src="js/shCore.js"></script>
+  <script src="js/shBrushCpp.js"></script>
+  <script>
+    SyntaxHighlighter.all()
+  </script>
+</body>
+ 
+
     
 ## 2 强化学习笔记
 ### 2.1 从1500年代起用的标准Lorem Ipsum段落
