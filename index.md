@@ -17,7 +17,22 @@
 - finished at 211031_2212
 
 <pre  class="line-numbers">
-class Solution {&#10;public:&#10;    vector&amp;lt;int&amp;gt; twoSum(vector&amp;lt;int&amp;gt;&amp;amp; nums, int target) {&#10;        vector&amp;lt;int&amp;gt; temp;&#10;        for(int i = 0; i&amp;lt;nums.size()-1; i++){&#10;            for(int j=i+1; j&amp;lt;nums.size(); j++){&#10;                if(nums[i]+nums[j]==target){&#10;                    temp.push_back(i);&#10;                    temp.push_back(j);&#10;                    return temp;&#10;                }&#10;            }&#10;        }&#10;        return temp;&#10;    }&#10;};
+class Solution {
+public:
+    vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) {
+        vector&lt;int&gt; temp;
+        for(int i = 0; i&lt;nums.size()-1; i++){
+            for(int j=i+1; j&lt;nums.size(); j++){
+                if(nums[i]+nums[j]==target){
+                    temp.push_back(i);
+                    temp.push_back(j);
+                    return temp;
+                }
+            }
+        }
+        return temp;
+    }
+};
 </pre>
 
     
