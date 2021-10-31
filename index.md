@@ -15,7 +15,8 @@
 
 ### 1.1 两数相加 
 - finished at 211031_2212
-``` c++
+
+<pre><code class="language-c">
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -32,8 +33,8 @@ public:
         return temp;
     }
 };
- 
-```
+</code></pre>
+    
 ## 2 强化学习笔记
 ### 2.1 从1500年代起用的标准Lorem Ipsum段落
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
