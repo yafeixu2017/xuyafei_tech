@@ -2,12 +2,15 @@
 
 # 飞达技术博客
 ## 目录
-[点击跳转](#jump)
+### 1 leetcode题解（C++代码）
+题目顺序主要参考 https://leetcode-cn.com/circle/article/48kq9d/
+- [1.1 两数相加](#两数相加)
+
+### 2 强化学习笔记
 
 ## 1 leetcode题解（C++代码）
-- 题目顺序主要参考 https://leetcode-cn.com/circle/article/48kq9d/
 
-### 1.1 两数相加 
+### 1.1 两数相加 <span id="两数相加"></span>
 - finished at 211031_2212
 ``` c++
 class Solution {
