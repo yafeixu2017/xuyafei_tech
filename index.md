@@ -20,33 +20,15 @@
 
 ### 1.1 两数相加 
 - finished at 211031_2212
-<body>
-  <pre class='brush: cpp'>
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        vector<int> temp;
-        for(int i = 0; i<nums.size()-1; i++){
-            for(int j=i+1; j<nums.size(); j++){
-                if(nums[i]+nums[j]==target){
-                    temp.push_back(i);
-                    temp.push_back(j);
-                    return temp;
-                }
-            }
-        }
-        return temp;
-    }
-};
-  </pre>
 
-  <script src="js/shCore.js"></script>
-  <script src="js/shBrushCpp.js"></script>
-  <script>
-    SyntaxHighlighter.all()
-  </script>
-</body>
- 
+<!--code Tag starts here -->
+      <code>
+#include<stdio.h>
+int main() {
+    printf("Hello Geeks");
+}
+<!--code Tag starts here -->
+      </code>
 
     
 ## 2 强化学习笔记
