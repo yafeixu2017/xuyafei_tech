@@ -1,8 +1,3 @@
-<head>
-  <link href="css/shCore.css" rel="stylesheet" type="text/css" />
-  <link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
-</head>
-
 - [飞达技术博客](#------)
   * [1 leetcode题解（C++代码）](#1-leetcode---c-----)
     + [1.1 两数相加](#11-----)
@@ -20,15 +15,10 @@
 
 ### 1.1 两数相加 
 - finished at 211031_2212
+
 <pre>
-      <code>
-        body {
-          color: yellow;
-          font-size: 16px;
-          line-height: 1.5;
-        }
-      </code>
-    </pre>
+class Solution {&#10;public:&#10;    vector&amp;lt;int&amp;gt; twoSum(vector&amp;lt;int&amp;gt;&amp;amp; nums, int target) {&#10;        vector&amp;lt;int&amp;gt; temp;&#10;        for(int i = 0; i&amp;lt;nums.size()-1; i++){&#10;            for(int j=i+1; j&amp;lt;nums.size(); j++){&#10;                if(nums[i]+nums[j]==target){&#10;                    temp.push_back(i);&#10;                    temp.push_back(j);&#10;                    return temp;&#10;                }&#10;            }&#10;        }&#10;        return temp;&#10;    }&#10;};
+</pre>
 
     
 ## 2 强化学习笔记
