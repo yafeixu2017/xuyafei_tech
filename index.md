@@ -2,10 +2,10 @@
 
 # 飞达技术博客
 ## 目录
-[1 leetcode题解](## 1 leetcode题解（C++代码）)
-[1.1 两数相加](### 1.1 两数相加 )
+[点击跳转](#jump)
 
 ## 1 leetcode题解（C++代码）
+<span id="jump">跳转到的地方</span>
 - 题目顺序主要参考 https://leetcode-cn.com/circle/article/48kq9d/
 
 ### 1.1 两数相加 
