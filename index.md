@@ -16,7 +16,7 @@
 ### 1.1 两数相加 
 - finished at 211031_2212
 
-<pre>
+<pre  class="line-numbers">
 class Solution {&#10;public:&#10;    vector&amp;lt;int&amp;gt; twoSum(vector&amp;lt;int&amp;gt;&amp;amp; nums, int target) {&#10;        vector&amp;lt;int&amp;gt; temp;&#10;        for(int i = 0; i&amp;lt;nums.size()-1; i++){&#10;            for(int j=i+1; j&amp;lt;nums.size(); j++){&#10;                if(nums[i]+nums[j]==target){&#10;                    temp.push_back(i);&#10;                    temp.push_back(j);&#10;                    return temp;&#10;                }&#10;            }&#10;        }&#10;        return temp;&#10;    }&#10;};
 </pre>
 
