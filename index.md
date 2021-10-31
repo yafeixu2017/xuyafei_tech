@@ -1,7 +1,9 @@
 
 
 # 飞达技术博客
+
 ## 1 leetcode题解（C++代码）
+题目顺序主要参考 https://leetcode-cn.com/circle/article/48kq9d/
 
 ### 1.1 两数相加
 ``` c++
