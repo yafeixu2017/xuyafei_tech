@@ -17,6 +17,7 @@
 - finished at 211031_2212
 
 <pre  class="line-numbers">
+<code>
 class Solution {
 public:
     vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) {
@@ -33,6 +34,7 @@ public:
         return temp;
     }
 };
+</code>
 </pre>
 
     
