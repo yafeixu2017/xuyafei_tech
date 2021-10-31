@@ -20,14 +20,13 @@
 
 ### 1.1 两数相加 
 - finished at 211031_2212
-    <pre>
-<!--code Tag starts here -->
+<pre>
       <code>
-#include<stdio.h>
-int main() {
-    printf("Hello Geeks");
-}
-<!--code Tag starts here -->
+        body {
+          color: yellow;
+          font-size: 16px;
+          line-height: 1.5;
+        }
       </code>
     </pre>
 
