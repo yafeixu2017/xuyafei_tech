@@ -48,11 +48,11 @@ public:
 <code class="language-cpp">
 class Solution {
 public:
-    int findMaxConsecutiveOnes(vector<int>& nums) {
+    int findMaxConsecutiveOnes(vector&lt;int&gt;&amp; nums) {
         int resCnt = 0; 
         int maxCnt = 0;
         
-        for(int i = 0; i < nums.size(); i++){
+        for(int i = 0; i &lt; nums.size(); i++){
             if(nums[i]==1){
                 resCnt = resCnt + 1;
                  
