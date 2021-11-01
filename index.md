@@ -68,6 +68,45 @@ public:
 };
 ~~~
     
+### 1.414 三大的数 EASY <span id="1_414"></span>
+- finished at 211101_1737
+~~~
+示例 1：
+
+输入：[3, 2, 1]
+输出：1
+解释：第三大的数是 1 。
+示例 2：
+
+输入：[1, 2]
+输出：2
+解释：第三大的数不存在, 所以返回最大的数 2 。
+示例 3：
+
+输入：[2, 2, 3, 1]
+输出：1
+解释：注意，要求返回第三大的数，是指在所有不同数字中排第三大的数。
+此例中存在两个值为 2 的数，它们都排第二。在所有不同数字中排第三大的数为 1 。
+~~~
+ 
+~~~c++
+class Solution {
+public:
+    int thirdMax(vector<int>& nums) {
+        set<int> temp_set={};
+        for(int i : nums){
+            temp_set.insert(i);
+            if(temp_set.size() > 3){
+                temp_set.erase(temp_set.begin());
+            }
+        }
+        return temp_set.size() == 3 ? *temp_set.begin() : *temp_set.rbegin();
+    }   
+};
+~~~
+
+
+
 ## 2 强化学习笔记 
 ### 2.1 从1500年代起用的标准Lorem Ipsum段落  
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
