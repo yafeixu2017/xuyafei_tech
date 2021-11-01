@@ -20,10 +20,10 @@
 ~~~c++
 class Solution {
 public:
-    vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) {
-        vector&lt;int&gt; temp;
-        for(int i = 0; i&lt;nums.size()-1; i++){
-            for(int j=i+1; j&lt;nums.size(); j++){
+    vector<int> twoSum(vector<int>& nums, int target) {
+        vector<int> temp;
+        for(int i = 0; i<nums.size()-1; i++){
+            for(int j=i+1; j<nums.size(); j++){
                 if(nums[i]+nums[j]==target){
                     temp.push_back(i);
                     temp.push_back(j);
@@ -47,11 +47,11 @@ public:
  
 class Solution {
 public:
-    int findMaxConsecutiveOnes(vector&lt;int&gt;&amp; nums) {
+    int findMaxConsecutiveOnes(vector<int>& nums) {
         int resCnt = 0; 
         int maxCnt = 0;
         
-        for(int i = 0; i &lt; nums.size(); i++){
+        for(int i = 0; i < nums.size(); i++){
             if(nums[i]==1){
                 resCnt = resCnt + 1;
                  
