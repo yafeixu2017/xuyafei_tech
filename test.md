@@ -17,7 +17,7 @@
 ### 1.1 两数相加 EASY<span id="1_1"></span>
 - finished at 211031_2212
 
- 
+~~~c++ 
   class Solution {
   public:
       int findMaxConsecutiveOnes(vector<int>& nums) {
@@ -39,6 +39,7 @@
 
       }};
 
+~~~
 
 ### 1.485 最大连续 1 的个数 EASY <span id="1_485"></span>
 给定一个二进制数组， 计算其中最大连续 1 的个数。
@@ -47,6 +48,7 @@
 输出：3
 解释：开头的两位和最后的三位都是连续 1 ，所以最大连续 1 的个数是 3.
 
+~~~c++
   class Solution {
   public:
       int findMaxConsecutiveOnes(vector<int>& nums) {
@@ -68,7 +70,9 @@
 
       }
   };
-    
+  
+~~~
+
 ## 2 强化学习笔记 <span id="2"></span>
 ### 2.1 从1500年代起用的标准Lorem Ipsum段落 <span id="2_1"></span>
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
