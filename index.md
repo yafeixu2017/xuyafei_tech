@@ -5,6 +5,7 @@
 - [飞达技术博客](#------)
   * [1 leetcode题解（C++代码）](#1)
     + [1.1 两数相加](#1_1) 
+    + [1.485 两数相加](#1_485) 
   * [2 强化学习笔记](#2)
     + [2.1 从1500年代起用的标准Lorem Ipsum段落](#2_1)
     + [2.2 "de Finibus Bonorum et Malorum"章节1.10.32，西塞罗于公元前45年著](#2_2)
@@ -13,7 +14,7 @@
 
 ## 1 leetcode题解（C++代码）<span id="1"></span>
 
-### 1.1 两数相加 <span id="1_1"></span>
+### 1.1 两数相加 EASY<span id="1_1"></span>
 - finished at 211031_2212
 
 <pre  class="line-numbers">
@@ -37,6 +38,37 @@ public:
 </code>
 </pre>
 
+### 1.485 最大连续 1 的个数 EASY <span id="1_485"></span>
+给定一个二进制数组， 计算其中最大连续 1 的个数。
+示例：
+输入：[1,1,0,1,1,1]
+输出：3
+解释：开头的两位和最后的三位都是连续 1 ，所以最大连续 1 的个数是 3.
+<pre  class="line-numbers">
+<code class="language-cpp">
+class Solution {
+public:
+    int findMaxConsecutiveOnes(vector<int>& nums) {
+        int resCnt = 0; 
+        int maxCnt = 0;
+        
+        for(int i = 0; i < nums.size(); i++){
+            if(nums[i]==1){
+                resCnt = resCnt + 1;
+                 
+            }else{
+                maxCnt = max(maxCnt, resCnt);
+                resCnt = 0;
+   
+            }
+        }
+        maxCnt = max(maxCnt, resCnt);
+        return maxCnt;
+
+    }
+};
+</code>
+</pre>
     
 ## 2 强化学习笔记 <span id="2"></span>
 ### 2.1 从1500年代起用的标准Lorem Ipsum段落 <span id="2_1"></span>
