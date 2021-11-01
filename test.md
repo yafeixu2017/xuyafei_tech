@@ -37,8 +37,7 @@
           maxCnt = max(maxCnt, resCnt);
           return maxCnt;
 
-      }
-  };
+      }};
 
 
 ### 1.485 最大连续 1 的个数 EASY <span id="1_485"></span>
