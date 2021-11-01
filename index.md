@@ -17,8 +17,7 @@
 ### 1.1 两数相加 EASY<span id="1_1"></span>
 - finished at 211031_2212
 
-<pre  class="line-numbers">
-<code class="language-cpp">
+~~~c++
 class Solution {
 public:
     vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) {
@@ -35,8 +34,7 @@ public:
         return temp;
     }
 };
-</code>
-</pre>
+~~~
 
 ### 1.485 最大连续 1 的个数 EASY <span id="1_485"></span>
 给定一个二进制数组， 计算其中最大连续 1 的个数。
@@ -45,6 +43,7 @@ public:
 输出：3
 解释：开头的两位和最后的三位都是连续 1 ，所以最大连续 1 的个数是 3.
 
+~~~c++
 <pre  class="line-numbers">
 <code class="language-cpp">
 class Solution {
@@ -68,8 +67,7 @@ public:
 
     }
 };
-</code>
-</pre>
+~~~
     
 ## 2 强化学习笔记 <span id="2"></span>
 ### 2.1 从1500年代起用的标准Lorem Ipsum段落 <span id="2_1"></span>
