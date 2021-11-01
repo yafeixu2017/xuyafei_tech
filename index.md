@@ -8,6 +8,8 @@
     + [1.485 两数相加](#1_485) 
     + [1.495 提莫攻击](#1_495) 
     + [1.414 第三大的数](#1_414) 
+    + [1.628 提莫攻击](#1_628) 
+
   * [2 强化学习笔记](#2)
     + [2.1 从1500年代起用的标准Lorem Ipsum段落](#2_1)
     + [2.2 "de Finibus Bonorum et Malorum"章节1.10.32，西塞罗于公元前45年著](#2_2)
@@ -150,6 +152,33 @@ public:
 ~~~
 
 
+### 1.628 三数最大乘积 EASY <span id="1_628"></span>
+~~~c++
+给你一个整型数组 nums ，在数组中找出由三个数组成的最大乘积，并输出这个乘积。
+
+示例 1：
+
+输入：nums = [1,2,3]
+输出：6
+示例 2：
+
+输入：nums = [1,2,3,4]
+输出：24
+示例 3：
+
+输入：nums = [-1,-2,-3]
+输出：-6
+ 
+
+class Solution {
+public:
+    int maximumProduct(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
+        int n = nums.size();
+        return max(nums[0]*nums[1]*nums[n-1], nums[n-2]*nums[n-3]*nums[n-1]);
+    }
+};
+~~~
 
 ## 2 强化学习笔记 
 ### 2.1 从1500年代起用的标准Lorem Ipsum段落  
